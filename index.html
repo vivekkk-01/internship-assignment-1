@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form action="https://www.greatfrontend.com/api/questions/contact-form" method="post">
-        <input type="text" name="name">
-        <input type="email" name="email">
-        <textarea name="message" cols="30" rows="10"></textarea>
-        <button type="submit">Send</button>
+  </head>
+  <body>
+    <form
+      action="https://www.greatfrontend.com/api/questions/contact-form"
+      method="post"
+    >
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" cols="30" rows="10"></textarea>
+      <button type="submit">Send</button>
     </form>
-</body>
+  </body>
 </html>
